@@ -1,0 +1,77 @@
+/**
+ * FontiaOne
+ */
+
+@font-face {
+    font-family: Cairo;
+    src: url('../fonts/fontiaOne/Cairo-Regular.ttf');
+}
+
+
+@font-face {
+    font-family: CoconNextLight;
+    src: url('../fonts/fontiaOne/CoconNextLight.ttf');
+}
+
+
+@font-face {
+    font-family: JFlat;
+    src: url('../fonts/fontiaOne/JFlat-Regular.ttf');
+}
+
+
+@font-face {
+    font-family: Rosemery;
+    src: url('../fonts/fontiaOne/Rosemery.ttf');
+}
+
+
+@font-face {
+    font-family: Tajawal-Medium;
+    src: url('../fonts/fontiaOne/Tajawal-Medium.ttf');
+}
+
+
+@font-face {
+    font-family: ElMessiri;
+    src: url('../fonts/fontiaOne/ElMessiri-Regular.ttf');
+}
+
+@font-face {
+    font-family: DIN-NEXT-REGULAR;
+    src: url('../fonts/fontiaOne/DIN-NEXT-REGULAR.otf');
+}
+
+
+
+/**
+ * Classes
+ */
+.fo-body {
+    font-family: Tajawal-Medium !important;
+}
+
+.fo-head {
+    font-family: ElMessiri !important;
+}
+
+.fo-title {
+    font-family: Cairo !important;
+}
+
+.fo-din {
+    font-family: DIN-NEXT-REGULAR !important;
+}
+
+.fo-nice {
+    font-family: CoconNextLight !important;
+}
+
+.fo-flat {
+    font-family: JFlat !important;
+}
+
+.fo-rose {
+    font-family: Rosemery !important;
+}
+

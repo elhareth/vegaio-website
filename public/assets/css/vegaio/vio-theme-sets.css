@@ -1,0 +1,142 @@
+/*!
+ * Vega I/O Primary Theme
+ */
+:root,
+[data-vio-theme=light] {
+
+    --vio-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --vio-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+    --vio-font-body: var(--vio-font-sans-serif);
+    --vio-font-brand: "CoconNextLight", "Raleway", sans-serif;
+    --vio-font-default: "DIN-NEXT-REGULAR", "Open Sans", sans-serif;
+    --vio-font-headings: "Tajawal-Medium", "Raleway", sans-serif;
+
+    --vio-gradient: linear-gradient(180deg, rgba(255, 255, 255, .15), rgba(255, 255, 255, 0));
+
+
+
+    --vio-color-blue: #0d6efd;
+    --vio-color-red: #dc3545;
+    --vio-color-yellow: #ffc107;
+    --vio-color-green: #198754;
+    --vio-color-cyan: #0dcaf0;
+
+
+    --vio-color-primary: #7d013f;
+    --vio-color-primary-rgb: 125, 1, 63;
+    --vio-color-primary-dark: #52082d;
+    --vio-color-primary-dark-rgb: 82, 8, 45;
+    --vio-color-primary-light: #a3326b;
+    --vio-color-primary-light-rgb: 143, 36, 90;
+    --vio-color-primary-bg-subtle: #e5ccd9;
+    --vio-color-primary-border-subtle: #cb99b2;
+    --vio-color-primary-text-emphasis: #320019;
+
+
+    --vio-color-secondary: #2b3252;
+    --vio-color-secondary-rgb: 43, 50, 82;
+    --vio-color-secondary-dark: #151c3f;
+    --vio-color-secondary-dark-rgb: 21, 28, 63;
+    --vio-color-secondary-light: #5a6596;
+    --vio-color-secondary-light-rgb: 90, 101, 150;
+    --vio-color-secondary-bg-subtle: #d5d6dc;
+    --vio-color-secondary-border-subtle: #aaadba;
+    --vio-color-secondary-text-emphasis: #111421;
+
+
+    --vio-color-success: #18d26e;
+    --vio-color-success-rgb: 24, 210, 110;
+    --vio-color-success-text-emphasis: #0a542c;
+    --vio-color-success-bg-subtle: #d1f6e2;
+    --vio-color-success-border-subtle: #a3edc5;
+
+
+    --vio-color-warning: #ed3c0d;
+    --vio-color-warning-rgb: 237, 60, 13;
+    --vio-color-warning-text-emphasis: #5f1805;
+    --vio-color-warning-bg-subtle: #fbd8cf;
+    --vio-color-warning-border-subtle: #f8b19e;
+
+
+    --vio-color-indigo: #6610f2;
+    --vio-color-indigo-rgb: 102, 16, 242;
+    --vio-color-indigo-bg-subtle: #e0cffc;
+    --vio-color-indigo-border-subtle: #c29ffa;
+    --vio-color-indigo-text-emphasis: #290661;
+
+
+    --vio-color-purple: #6f42c1;
+    --vio-color-purple-rgb: 111, 66, 193;
+    --vio-color-purple-bg-subtle: #e2d9f3;
+    --vio-color-purple-border-subtle: #c5b3e6;
+    --vio-color-purple-text-emphasis: #2c1a4d;
+
+
+    --vio-color-orange: #fd7e14;
+    --vio-color-orange-rgb: 253, 126, 20;
+    --vio-color-orange-bg-subtle: #ffe5d0;
+    --vio-color-orange-border-subtle: #fecba1;
+    --vio-color-orange-text-emphasis: #653208;
+
+
+    --vio-color-pink: #d63384;
+    --vio-color-pink-rgb: 214, 51, 132;
+    --vio-color-pink-bg-subtle: #f7d6e6;
+    --vio-color-pink-border-subtle: #efadce;
+    --vio-color-pink-text-emphasis: #561435;
+
+
+    --vio-color-teal: #20c997;
+    --vio-color-teal-rgb: 32, 201, 151;
+    --vio-color-teal-bg-subtle: #d2f4ea;
+    --vio-color-teal-border-subtle: #a6e9d5;
+    --vio-color-teal-text-emphasis: #0d503c;
+
+
+
+    --vio-color-ext-success: #18d26e;
+    --vio-color-ext-error: #ed3c0d;
+    --vio-color-ext-rusty: #444444;
+    --vio-color-ext-dusty: #aaaaaa;
+    --vio-color-ext-mute: #777777;
+}
+
+[data-vio-theme=dark] {
+    color-scheme: dark;
+    --vio-color-primary-bg-subtle: #19000d;
+    --vio-color-primary-border-subtle: #4b0126;
+    --vio-color-primary-text-emphasis: #b1678c;
+
+    --vio-color-secondary-bg-subtle: #090a10;
+    --vio-color-secondary-border-subtle: #1a1e31;
+    --vio-color-secondary-text-emphasis: #808497;
+
+    --vio-color-success-bg-subtle: #052a16;
+    --vio-color-success-border-subtle: #0e7e42;
+    --vio-color-success-text-emphasis: #74e4a8;
+
+    --vio-color-warning-bg-subtle: #2f0c03;
+    --vio-color-warning-border-subtle: #8e2408;
+    --vio-color-warning-text-emphasis: #f48a6e;
+
+    --vio-color-indigo-bg-subtle: #140330;
+    --vio-color-indigo-border-subtle: #3d0a91;
+    --vio-color-indigo-text-emphasis: #a370f7;
+
+    --vio-color-purple-bg-subtle: #160d27;
+    --vio-color-purple-border-subtle: #432874;
+    --vio-color-purple-text-emphasis: #a98eda;
+
+    --vio-color-orange-bg-subtle: #331904;
+    --vio-color-orange-border-subtle: #984c0c;
+    --vio-color-orange-text-emphasis: #feb272;
+
+    --vio-color-pink-bg-subtle: #2b0a1a;
+    --vio-color-pink-border-subtle: #801f4f;
+    --vio-color-pink-text-emphasis: #e685b5;
+
+    --vio-color-teal-bg-subtle: #06281e;
+    --vio-color-teal-border-subtle: #13795b;
+    --vio-color-teal-text-emphasis: #79dfc1;
+}

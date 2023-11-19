@@ -1,0 +1,346 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+    line-break: auto;
+}
+
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+.back-to-top {
+    left: 15px;
+}
+
+/*--------------------------------------------------------------
+# Get Startet Button
+--------------------------------------------------------------*/
+.get-started-btn {
+    margin-right: 30px;
+}
+
+@media (max-width: 992px) {
+    .get-started-btn {
+        margin-left: 15px;
+        margin-right: 0;
+    }
+}
+
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+/**
+* Desktop Navigation
+*/
+.navbar a,
+.navbar a:focus {
+    padding-left: 0;
+    padding-right: 30px;
+    font-size: 15px;
+}
+
+.navbar a i,
+.navbar a:focus i {
+    margin-right: 5px;
+}
+
+.navbar .dropdown ul {
+    right: 30px;
+}
+
+.navbar .dropdown ul a {
+    font-size: 14px;
+}
+
+.navbar .dropdown .dropdown ul {
+    right: calc(100% - 30px);
+}
+
+.navbar .dropdown .dropdown:hover>ul {
+    right: 100%;
+}
+
+@media (max-width: 1366px) {
+    .navbar .dropdown .dropdown ul {
+        right: -90%;
+    }
+
+    .navbar .dropdown .dropdown:hover>ul {
+        right: -100%;
+    }
+}
+
+/**
+* Mobile Navigation
+*/
+.navbar-mobile .mobile-nav-toggle {
+    left: 15px;
+}
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+.section-title h2::after {
+    right: calc(50% - 25px);
+}
+
+/*--------------------------------------------------------------
+# Breadcrumbs
+--------------------------------------------------------------*/
+.breadcrumbs ol li+li {
+    padding-right: 10px;
+}
+
+.breadcrumbs ol li+li::before {
+    padding-left: 10px;
+}
+
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+.about .content {
+    padding-left: 30px;
+    padding-right: 0;
+}
+
+.about .content .about-btn i {
+    padding-right: 5px;
+}
+
+@media (max-width: 1200px) {
+    .about .content {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .about {
+        text-align: center;
+    }
+}
+
+/*--------------------------------------------------------------
+# Counts
+--------------------------------------------------------------*/
+.counts .count-box i {
+    right: 50%;
+}
+
+/*--------------------------------------------------------------
+# Tabs
+--------------------------------------------------------------*/
+.tabs .nav-link i {
+    padding-left: 15px;
+}
+
+.tabs .tab-pane ul i {
+    padding-left: 4px;
+}
+
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+.services .icon-box i {
+    float: right;
+}
+
+.services .icon-box h4 {
+    margin-right: 70px;
+}
+
+.services .icon-box p {
+    margin-right: 70px;
+}
+
+/*--------------------------------------------------------------
+# Portfolio
+--------------------------------------------------------------*/
+.portfolio #portfolio-flters li:last-child {
+    margin-left: 0;
+}
+
+/*--------------------------------------------------------------
+# Testimonials
+--------------------------------------------------------------*/
+.testimonials .testimonial-item .testimonial-img {
+    float: right;
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+.testimonials .testimonial-item .quote-icon-left {
+    right: -5px;
+}
+
+.testimonials .testimonial-item .quote-icon-right {
+    left: -5px;
+}
+
+/*--------------------------------------------------------------
+# Pricing
+--------------------------------------------------------------*/
+.pricing .box h4 sup {
+    right: -3px;
+}
+
+.pricing .box ul i {
+    padding-left: 4px;
+}
+
+/*--------------------------------------------------------------
+# Frequently Asked Questions
+--------------------------------------------------------------*/
+.faq .faq-list a {
+    font-size: 18px;
+    line-height: 24px;
+    padding-left: 25px;
+}
+
+.faq .faq-list i {
+    left: 0;
+}
+
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+.contact .contact-us-form .error-message {
+    text-align: right;
+}
+
+.contact .contact-us-form .loading:before {
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+/*--------------------------------------------------------------
+# Blog
+--------------------------------------------------------------*/
+.blog .entry .entry-meta ul li+li {
+    padding-right: 20px;
+}
+
+.blog .entry .entry-meta i {
+    margin-left: 8px;
+}
+
+.blog .entry .entry-content .read-more {
+    -moz-text-align-last: right;
+    text-align-last: right;
+}
+
+.blog .entry .entry-content blockquote::after {
+    right: 0;
+}
+
+
+.blog .entry .entry-footer .tags li+li::before {
+    padding-left: 6px;
+}
+
+.blog .entry .entry-footer .share i {
+    padding-right: 5px;
+}
+
+.blog .blog-author img {
+    margin-left: 20px;
+}
+
+.blog .blog-author .social-links {
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+.blog .blog-author .social-links a {
+    margin-left: 5px;
+}
+
+.blog .blog-comments .comment .comment-img {
+    margin-left: 14px;
+}
+
+.blog .blog-comments .comment h5 .reply {
+    padding-right: 10px;
+}
+
+.blog .blog-comments .comment.comment-reply {
+    padding-right: 40px;
+}
+
+.blog .sidebar {
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+.blog .sidebar .search-form form button {
+    left: 0;
+    font-size: 16px;
+    /* border-radius: 0 4px 4px 0; */
+    border-radius:4px 0 0 4px;
+}
+
+.blog .sidebar .categories ul a span {
+    padding-right: 5px;
+}
+
+.blog .sidebar .recent-posts img {
+    float: right;
+}
+
+.blog .sidebar .recent-posts h4 {
+    font-size: 15px;
+    margin-right: 95px;
+}
+
+.blog .sidebar .recent-posts time {
+    margin-right: 95px;
+    font-size: 14px;
+}
+
+.blog .entry .entry-footer .cats {
+    padding-left: 20px;
+    padding-right: 0;
+}
+
+.blog .sidebar .tags ul a {
+    margin-left: 6px;
+    margin-right: 0;
+}
+
+.blog .sidebar .tags ul a span {
+    padding-right: 5px;
+    font-size: 14px;
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer .footer-top h4::after {
+    right: 0;
+}
+
+#footer .footer-top .footer-links ul i {
+    padding-left: 2px;
+}
+
+#footer .footer-newsletter form input[type=submit] {
+    left: -1px;
+    font-size: 16px;
+    border-radius: 4px 0 0 4px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+#footer .social-links a {
+    font-size: 18px;
+    margin-left: 4px;
+}
+
+
+/*
+ |---------------------------------------------------------------------------
+ | VIO Custom hooks
+ |---------------------------------------------------------------------------
+ |
+ |
+ |
+ |---------------------------------------------------------------------------
+*/

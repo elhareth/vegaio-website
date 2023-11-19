@@ -1,0 +1,338 @@
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+.back-to-top {
+    right: 15px;
+}
+
+/*--------------------------------------------------------------
+# Get Startet Button
+--------------------------------------------------------------*/
+.get-started-btn {
+    margin-left: 30px;
+}
+
+@media (max-width: 992px) {
+    .get-started-btn {
+        margin-right: 15px;
+        margin-left: 0;
+    }
+}
+
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+/**
+* Desktop Navigation
+*/
+.navbar a,
+.navbar a:focus {
+    padding-right: 0;
+    padding-left: 30px;
+    font-size: 15px;
+}
+
+.navbar a i,
+.navbar a:focus i {
+    margin-left: 5px;
+}
+
+.navbar .dropdown ul {
+    left: 30px;
+}
+
+.navbar .dropdown ul a {
+    font-size: 14px;
+}
+
+.navbar .dropdown .dropdown ul {
+    left: calc(100% - 30px);
+}
+
+.navbar .dropdown .dropdown:hover>ul {
+    left: 100%;
+}
+
+@media (max-width: 1366px) {
+    .navbar .dropdown .dropdown ul {
+        left: -90%;
+    }
+
+    .navbar .dropdown .dropdown:hover>ul {
+        left: -100%;
+    }
+}
+
+/**
+* Mobile Navigation
+*/
+.navbar-mobile .mobile-nav-toggle {
+    right: 15px;
+}
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+.section-title h2::after {
+    left: calc(50% - 25px);
+}
+
+/*--------------------------------------------------------------
+# Breadcrumbs
+--------------------------------------------------------------*/
+.breadcrumbs ol li+li {
+    padding-left: 10px;
+}
+
+.breadcrumbs ol li+li::before {
+    padding-right: 10px;
+}
+
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+.about .content {
+    padding-right: 30px;
+    padding-left: 0;
+}
+
+.about .content .about-btn i {
+    padding-left: 5px;
+}
+
+@media (max-width: 1200px) {
+    .about .content {
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .about {
+        text-align: center;
+    }
+}
+
+/*--------------------------------------------------------------
+# Counts
+--------------------------------------------------------------*/
+.counts .count-box i {
+    left: 50%;
+}
+
+/*--------------------------------------------------------------
+# Tabs
+--------------------------------------------------------------*/
+.tabs .nav-link i {
+    padding-right: 15px;
+}
+
+.tabs .tab-pane ul i {
+    padding-right: 4px;
+}
+
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+.services .icon-box i {
+    float: left;
+}
+
+.services .icon-box h4 {
+    margin-left: 70px;
+}
+
+.services .icon-box p {
+    margin-left: 70px;
+}
+
+/*--------------------------------------------------------------
+# Portfolio
+--------------------------------------------------------------*/
+.portfolio #portfolio-flters li:last-child {
+    margin-right: 0;
+}
+
+/*--------------------------------------------------------------
+# Testimonials
+--------------------------------------------------------------*/
+.testimonials .testimonial-item .testimonial-img {
+    float: left;
+    margin-right: 10px;
+    margin-left: 0;
+}
+
+.testimonials .testimonial-item .quote-icon-left {
+    left: -5px;
+}
+
+.testimonials .testimonial-item .quote-icon-right {
+    right: -5px;
+}
+
+/*--------------------------------------------------------------
+# Pricing
+--------------------------------------------------------------*/
+.pricing .box h4 sup {
+    left: -3px;
+}
+
+.pricing .box ul i {
+    padding-right: 4px;
+}
+
+/*--------------------------------------------------------------
+# Frequently Asked Questions
+--------------------------------------------------------------*/
+.faq .faq-list a {
+    font-size: 18px;
+    line-height: 24px;
+    padding-right: 25px;
+}
+
+.faq .faq-list i {
+    right: 0;
+}
+
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+.contact .contact-us-form .error-message {
+    text-align: left;
+}
+
+.contact .contact-us-form .loading:before {
+    margin-right: 10px;
+    margin-left: 0;
+}
+
+/*--------------------------------------------------------------
+# Blog
+--------------------------------------------------------------*/
+.blog .entry .entry-meta ul li+li {
+    padding-left: 20px;
+}
+
+.blog .entry .entry-meta i {
+    margin-right: 8px;
+}
+
+.blog .entry .entry-content .read-more {
+    -moz-text-align-last: right;
+    text-align-last: right;
+}
+
+.blog .entry .entry-content blockquote::after {
+    left: 0;
+}
+
+
+.blog .entry .entry-footer .tags li+li::before {
+    padding-right: 6px;
+}
+
+.blog .entry .entry-footer .share i {
+    padding-left: 5px;
+}
+
+.blog .blog-author img {
+    margin-right: 20px;
+}
+
+.blog .blog-author .social-links {
+    margin-right: 10px;
+    margin-left: 0;
+}
+
+.blog .blog-author .social-links a {
+    margin-right: 5px;
+}
+
+.blog .blog-comments .comment .comment-img {
+    margin-right: 14px;
+}
+
+.blog .blog-comments .comment h5 .reply {
+    padding-left: 10px;
+}
+
+.blog .blog-comments .comment.comment-reply {
+    padding-left: 40px;
+}
+
+.blog .sidebar {
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+.blog .sidebar .search-form form button {
+    right: 0;
+    font-size: 16px;
+    border-radius: 0 4px 4px 0;
+}
+
+.blog .sidebar .categories ul a span {
+    padding-left: 5px;
+}
+
+.blog .sidebar .recent-posts img {
+    float: left;
+}
+
+.blog .sidebar .recent-posts h4 {
+    font-size: 15px;
+    margin-left: 95px;
+}
+
+.blog .sidebar .recent-posts time {
+    margin-left: 95px;
+    font-size: 14px;
+}
+
+.blog .entry .entry-footer .cats {
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+.blog .sidebar .tags ul a {
+    margin-right: 6px;
+    margin-left: 0;
+}
+
+.blog .sidebar .tags ul a span {
+    padding-left: 5px;
+    font-size: 14px;
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer .footer-top h4::after {
+    left: 0;
+}
+
+#footer .footer-top .footer-links ul i {
+    padding-right: 2px;
+}
+
+#footer .footer-newsletter form input[type=submit] {
+    right: -1px;
+    font-size: 16px;
+    border-radius: 0 4px 4px 0;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+#footer .social-links a {
+    font-size: 18px;
+    margin-right: 4px;
+}
+
+
+/*
+ |---------------------------------------------------------------------------
+ | VIO Custom hooks
+ |---------------------------------------------------------------------------
+ |
+ |
+ |
+ |---------------------------------------------------------------------------
+*/

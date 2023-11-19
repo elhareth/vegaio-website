@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind forms;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --f-primary-600: #660033;
+}

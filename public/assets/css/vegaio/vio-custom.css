@@ -1,0 +1,147 @@
+@import url('./vio-bootstrap.css');
+/**
+ ***********************************************************************************
+ * Custom additions
+ ***********************************************************************************
+ ***********************************************************************************
+ ***********************************************************************************
+ ***********************************************************************************
+ ***********************************************************************************
+ ***********************************************************************************
+ *
+ */
+.felx-body-center {
+    display: flex;
+    align-items: center;
+}
+
+.errors-list-card {
+    background-color: rgba(238, 161, 171, 0.65);
+    border: var(--bs-red) 1px solid;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.errors-list-item {
+    color: var(--bs-red);
+    list-style-type: none;
+}
+
+.error-toast-line {
+    margin: 0.5rem auto;
+    padding: 1px 0.2rem;
+    font-size: small;
+    font-weight: 400;
+    font-family: var(--vio-font-monospace);
+    border-radius: 0.5rem;
+    background-color: var(--vio-color-red);
+    color: rgba(var(--vio-color-light-rgb, 1));
+    opacity: 0.95;
+    position: relative;
+}
+
+/**
+ ***********************************************************************************
+ * Custom Buttons
+ ***********************************************************************************
+ */
+.vio-btn-primary {
+    background-color: rgb(var(--vio-color-primary-rgb));
+    color: var(--bs-light);
+    /* border-radius: 25px; */
+}
+
+.vio-btn-primary:hover {
+    background: rgba(var(--vio-color-primary-light-rgb, 0.75));
+    color: var(--bs-light);
+}
+
+.vio-btn-rounded-primary {
+    background-color: rgb(var(--vio-color-primary-rgb));
+    color: var(--bs-light);
+    border-radius: 25px;
+}
+
+.vio-btn-rounded-primary:hover {
+    background: rgba(var(--vio-color-primary-light-rgb, 0.75));
+    color: var(--bs-light);
+}
+
+/**
+ ***********************************************************************************
+ * Customize Auth Pages
+ ***********************************************************************************
+ *
+ *
+ *
+ ***********************************************************************************
+ */
+.auth-form-body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: url('/assets/img/hero-bg.jpg') no-repeat center/cover fixed;
+}
+
+.auth-form-signin {
+    padding: 5px 30px;
+    margin: auto;
+    border: 0px solid var(--bs-dark);
+    background: rgba(180, 180, 180, 0.7);
+    border-radius: 20px;
+}
+
+.auth-form-signin .form-floating,
+.auth-form-signin .form-group {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.auth-form-signin .form-group input[type="text"],
+.auth-form-signin .form-floating input[type="text"],
+.auth-form-signin .form-group input[type="date"],
+.auth-form-signin .form-floating input[type="date"],
+.auth-form-signin .form-group input[type="email"],
+.auth-form-signin .form-floating input[type="email"],
+.auth-form-signin .form-group input[type="password"],
+.auth-form-signin .form-floating input[type="password"] {
+    direction: rtl;
+    padding: 5px;
+    font-family: var(--vio-font-default);
+    /* border-radius: 25px; */
+}
+
+.auth-form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+/**
+ ***********************************************************************************
+ * Overrides Customizations
+ ***********************************************************************************
+ *
+ *
+ *
+ ***********************************************************************************
+ */
+.vio-form-check {
+    display: block;
+    min-height: 1.5rem;
+    padding-left: 1.5em;
+    margin-bottom: 0.125rem;
+}
+
+.vio-form-check-input {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.vio-form-check-input:focus {
+    border-color: var(--vio-color-primary);
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(var(--vio-color-primary-rgb), 0.25);
+}
+
+.vio-form-check-input:checked {
+    background-color: var(--vio-color-primary) !important;
+    border-color: var(--vio-color-primary-dark);
+}
